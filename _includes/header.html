@@ -1,0 +1,27 @@
+<!-- _includes/header.html -->
+
+<header class="site-header">
+    <div class="container">
+        <!-- Branding (e.g., a logo or site title) -->
+        <div class="branding">
+            <a href="{{ site.baseurl }}/">
+                {% if site.logo %}
+                <img src="{{ site.baseurl }}{{ site.logo }}" alt="{{ site.title }}" class="logo">
+                {% else %}
+                <h1>{{ site.title }}</h1>
+                {% endif %}
+            </a>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="site-nav">
+            <ul>
+                <li><a href="{{ site.baseurl }}/">Home</a></li>
+                <li><a href="{{ site.baseurl }}/about/">About</a></li>
+                <li><a href="{{ site.baseurl }}/research/">Research</a></li>
+                <li><a href="{{ site.baseurl }}/news/">News</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
