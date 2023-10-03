@@ -1,1 +1,25 @@
+# Meta Information
+title: X-SimMa
+email: askxsimma@gmail.com
+description: >- 
+  A site built with Jekyll for showcasing X-SimMa.
+baseurl: "" 
+url: "https://xsimma.github.io" # No trailing slash
+
+# Build Settings
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+# Plugins (if any; for example, jekyll-sitemap for generating a sitemap)
+plugins:
+  - jekyll-sitemap
+
+# Theme Settings (depends on the theme you're using)
+theme: minima
+minima:
+  skin: solarized # This is specific to the "minima" theme. Your theme's settings might differ.
+
+# Additional settings can be added as needed...
 
